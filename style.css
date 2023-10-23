@@ -16,6 +16,7 @@ a:hover {
 a:active {
      color: yellow;
 }
+
 body {
      background-color: turquoise;
      font-family: Mohave;
@@ -23,7 +24,7 @@ body {
  }
  
  h1 {
-     color: seiran;
+     color: palevioletred;
      font-family: "Great Vibes";
      font-size: 60px;
  }
@@ -64,3 +65,39 @@ body {
      padding-left: 30px;
  }
 
+ /* .leaf {
+     width: 50px;
+     position: fixed;
+   }
+   .leaf:nth-child(1) {
+     bottom: 5%;
+     left: -10%;
+     animation: blowing 12s 1s linear infinite;
+   }
+   .leaf:nth-child(2) {
+     bottom: 10vh;
+     left: -10%;
+     animation: blowing 6s linear infinite;
+   }
+   .leaf:nth-child(3) {
+     bottom: 0vh;
+     left: -10%;
+     animation: blowing 9s 3s linear infinite;
+   }
+   @keyframes blowing {
+     0% {
+       transform: translate(0,0) rotate(0)
+     }
+     20% {
+       transform: translate(15vw, -10vh) rotate(170deg)
+     }
+     65% {
+       transform: translate(55vw, -12vh) rotate(550deg)
+     }
+     80% {
+       transform: translate(70vw, -17vh) rotate(740deg)
+     }
+     100% {
+       transform: translate(100vw, -25vh) rotate(920deg)
+     }
+   } */
